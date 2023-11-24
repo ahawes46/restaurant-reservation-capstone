@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://mmnjmtju:A_w-uZLdz2uQcTmqy4WMwlZf3zEgDb7U@hansken.db.elephantsql.com/mmnjmtju",
-  DATABASE_URL_DEVELOPMENT = "postgres://dlpbtyif:3l2h4BNJ8xQeB2GyUPSP5jX9Uw-y3wmH@hansken.db.elephantsql.com/dlpbtyif",
-  DATABASE_URL_TEST = "postgres://hqmrjjdd:BJvMgdwevcw3hmT5t8YYzdUoa1iuHdW3@hansken.db.elephantsql.com/hqmrjjdd",
-  DATABASE_URL_PREVIEW = "postgres://zqsccetz:dXIZTjCR3SWsR8f80yEKjcSlyv2O0Q2l@hansken.db.elephantsql.com/zqsccetz",
+  DATABASE_URL="postgres://dnmjmejz:kkkgSQ7bgA29jUbKBg3SmrN2ca2JXTHH@bubble.db.elephantsql.com/dnmjmejz",
+DATABASE_URL_DEVELOPMENT="postgres://jatdqohu:qQ1usfJRVYRna_6wWK20nNrIcne0VyFk@bubble.db.elephantsql.com/jatdqohu",
+DATABASE_URL_TEST="postgres://aqbhxnjv:n6_bmjULXvPjZN_TEVCxhvqMp_LM6H7v@bubble.db.elephantsql.com/aqbhxnjv",
+DATABASE_URL_PREVIEW="postgres://nvzmstda:BAwcvgyp6IF88ncTGo9mlym-akPmawD0@bubble.db.elephantsql.com/nvzmstda",
   DEBUG,
 } = process.env;
 
